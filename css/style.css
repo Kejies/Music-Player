@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    position: relative;
+    background-color: rgba(24, 24, 24, 99%);
+    width: 800px;
+    height: 250px;
+    margin: 25px auto;
+}
+
+.header {
+    display: flex;
+    height: 210px;
+}
+
+.header-content {
+    color: #fff;
+    padding-top: 30px;
+    width: 575px;
+
+}
+
+.header-content h5 {
+    color: #887979;
+    margin-bottom: 5px;
+}
+
+.header-content h2,
+p {
+    margin-bottom: 5px;
+}
+
+.header-content p {
+    color: #b6adad;
+
+}
+
+.header img {
+    padding: 35px;
+    width: 125px;
+    border-radius: 25%;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    color: #887979;
+    font-size: small;
+    font-weight: 500;
+}
+
+.progress-bar,
+.secondbar {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 7px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background-color: #424242;
+}
+
+.secondbar {
+    position: a;
+    display: block;
+    background-color: #fff;
+    width: 80%;
+}
+
+.dots-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 96.5%;
+}
+
+.dot {
+    width: 15px;
+    display: flex;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.icon {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.icon .sm:hover{
+    transform: scale(1.2);
+}
+.start {
+    color: red;
+    justify-content: start;
+}
+
+.end {
+    justify-content: end;
+}
+
+.big {
+    transform: scale(3);
+}
+
+.content {
+    margin-top: 40.4px;
+    width: 745px;
+    background-color: rgba(24, 24, 24, 92%);
+    padding-left: 55px;
+    padding-bottom: 50px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 5% 40% 35% 20%;
+}
+
+.content h4 {
+    color: #f5f5f534;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.music-container img {
+    width: 80px;
+    border-radius: 15%;
+}
+
+.music-container {
+    display: grid;
+    grid-template-columns: 5% 40% 35% 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.music-container .number-list {
+    padding-top: 25px;
+    color: white;
+}
+
+.music-container:hover {
+    cursor: pointer;
+    background-color: rgba(25, 25, 25, 99%);
+}
+
+.music-detail {
+    display: flex;
+    color: white;
+}
+
+.content-detail {
+    color: white;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+.more-detail {
+    padding-top: 25px;
+    color: #f5f5f562;
+}
+
+.album-list {
+    padding-top: 25px;
+    color: white;
+}
+
+.line-break {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 90%;
+    height: 1px;
+    border-radius: 10px;
+    background-color: #424242;
+}
+
+.navbar {
+    position: fixed;
+    background-color: rgba(24, 24, 24, 99%);
+    bottom: 0;
+    width: 800px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar h4 {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.navbar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 15px;
+}
+
+.navbar-list {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.navbar-list a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-right: 35px;
+    line-height: 80px;
+    transition: 0.3;
+}
+
+.active {
+    display: block;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.navbar-list a i:hover {
+    transform: scale(1.2);
+    color: #71C6FF;
+}
+
+.icon-leave {
+    font-size: 30px;
+    color: #fff;
+    line-height: 80px;
+}
